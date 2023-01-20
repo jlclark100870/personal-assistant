@@ -1,0 +1,17 @@
+turn on computer light
+turn off computer light
+turn on porch light
+turn off porch light
+open command prompt
+open camera
+open calculator
+time
+date
+room temperature
+outside temperature
+room humidity
+good morning
+good afternoon
+good night
+yes
+no
