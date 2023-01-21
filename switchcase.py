@@ -18,12 +18,12 @@ def switch(lang):
 
 
 
-
+    command = 'none'
     selection = process.extractOne(lang,data_into_list)
     print(selection)
-    command = str(selection[0])
+    if int(selection[1])>85: 
+        command = str(selection[0])
     return command
 ##
 ##switch(str(selection[0]))
-
 

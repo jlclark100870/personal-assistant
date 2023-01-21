@@ -22,20 +22,24 @@ if __name__ == '__main__':
         
 
         if 'open notepad' in query:
+            speak(choice(opening_text))
             open_notepad()
 
 
 
        # elif 'open discord' in query:
-            open_discord()
+           # open_discord()
 
         elif 'open command prompt' in query or 'open cmd' in query:
+            speak(choice(opening_text))
             open_cmd()
 
         elif 'open camera' in query:
+            speak(choice(opening_text))
             open_camera()
 
         elif 'open calculator' in query:
+            speak(choice(opening_text))
             open_calculator()
 
         
@@ -113,38 +117,46 @@ if __name__ == '__main__':
 ##            print(f"Description: {weather}\nTemperature: {temperature}\nFeels like: {feels_like}")
 ##
         elif 'time' in query:
+            speak(choice(opening_text))
             now = datetime.datetime.now()
             date_string = now.strftime('%H:%M')
             speak('the current time is')
             speak(date_string)
         elif 'date' in query:
+            speak(choice(opening_text))
             now = datetime.datetime.now()
             date_string = now.strftime('%m-%d-%Y')
             speak('the current date is')
             speak(date_string)
  
         elif 'room temperature' in query:
+            speak(choice(opening_text))
             speak("current tempature in the office is")
             speak(room_temp())
             speak('degrees Fahrenheit ')
 
         elif 'outside temperature' in query:
+            speak(choice(opening_text))
             speak("current tempature outside is")
             speak(outside_temp())
             speak('Fahrenheit ')
 
         elif 'room humidity' in query:
+            speak(choice(opening_text))
             speak("current humidity in the office is")
             speak(roomh())
             speak('percent')
 
         elif 'good morning' in query:
+            speak(choice(opening_text))
             greet_user()
 
         elif 'good afternoon' in query:
+            speak(choice(opening_text))
             greet_user()
 
         elif 'good night' in query:
+            speak(choice(opening_text))
             speak('Good night would you like me to set and alarm for you')
             query = take_user_input().lower()
             if 'no' in query:
@@ -161,17 +173,24 @@ if __name__ == '__main__':
                 speak('ok sleep well')
         
         elif 'turn off computer light' in query:
+            speak(choice(opening_text))
             latte(0,'latte')
         elif 'turn on computer light' in query:
+            speak(choice(opening_text))
             latte(1,'latte')
 
         elif 'turn off porch light' in query:
+            speak(choice(opening_text))
             latte(0,'porch')
         elif 'turn on porch light' in query:
+            speak(choice(opening_text))
             latte(1,'porch')
 
         elif 'turn off living room light' in query:
+            speak(choice(opening_text))
             latte(0,'living room over head light')
+            
         elif 'turn on living room light' in query:
+            speak(choice(opening_text))
             latte(1,'living room over head light')
        
