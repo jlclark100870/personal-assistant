@@ -13,5 +13,7 @@ room humidity
 good morning
 good afternoon
 good night
-yes
+hum
 no
+yes
+
