@@ -3,7 +3,7 @@ import schedule
 import jarvis
 import datetime
 url_room = requests.get("http://192.168.1.168/enviro.json")
-url_outside = requests.get("https://api.openweathermap.org/data/2.5/weather?lat=37.48&lon=-86.29&appid=472bd080e8719f66f75bf94fe4954e0f")
+url_outside = requests.get("https://api.openweathermap.org/data/2.5/weather?lat=37.48&lon=-86.29&appid"</appid'/>")
 url_therm = requests.get("http://192.168.1.168/dataset.json")
 def room_t():
     url_room = requests.get("http://192.168.1.168/enviro.json")
@@ -25,7 +25,7 @@ def alarm(set_time):
 
 
 def outside_temp():
-    url_outside = requests.get("https://api.openweathermap.org/data/2.5/weather?lat=37.48&lon=-86.29&appid=472bd080e8719f66f75bf94fe4954e0f")
+    url_outside = requests.get("https://api.openweathermap.org/data/2.5/weather?lat=37.48&lon=-86.29&appid=</appid'/>")
     text = url_outside.text
     data = json.loads(text)
     temp_raw = data['main']['temp']

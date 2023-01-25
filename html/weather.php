@@ -4,7 +4,7 @@
 <?php
 header("refresh: 60");
   
-$url = "https://api.openweathermap.org/data/2.5/weather?lat=37.48&lon=-86.29&appid=472bd080e8719f66f75bf94fe4954e0f";
+$url = "https://api.openweathermap.org/data/2.5/weather?lat=37.48&lon=-86.29&appid=</appid'/>";
 $json = file_get_contents($url);
 $json_data = json_decode($json, true);
 print_r($json_data);
