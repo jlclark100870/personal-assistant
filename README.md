@@ -19,6 +19,7 @@ Using wemo:
 Using rasp pi, json and html:
   room temperature
   room humidity
+  
 using web based api:
   outside temperature
 
