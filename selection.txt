@@ -16,4 +16,8 @@ good night
 hum
 no
 yes
-
+ask a question
+wikipedia
+who are you
+what is your name
+commands

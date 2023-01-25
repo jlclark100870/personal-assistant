@@ -32,12 +32,13 @@ def alarm():
     text = url_time.text
     data = json.loads(text)
     text = data['alarm'].split(':')
-    
+    alarm_state = data['alarm_state']
+    if alarm_state == "yes":
 
-    if curhour == int(text[0]) and curminute > int(text[1]) and cursecond > 0:
+        if curhour >= int(text[0]) and curminute > int(text[1]) and cursecond > 0 and curhour < 18:
    
-        print(spktime())
-        print('all done')
+            print(spktime())
+            print('all done')
     
 
     
