@@ -9,16 +9,11 @@ voice activated personal assistant with wemo support
   A) Use simple code and data structure so people with minor python coding abilities can modify and maintian code base.
   B) Use texted based constantance to modify commands and routines to allow adding commands and actions with out coding.
  
-Functionality :-
-
-Using wemo:
+Functionality :-Using wemo:
 
   turn on computer light
-
   turn off computer light
-
   turn on porch light
-
   turn off porch light
 
 
