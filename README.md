@@ -10,48 +10,90 @@ voice activated personal assistant with wemo support
   B) Use texted based constantance to modify commands and routines to allow adding commands and actions with out coding.
  
 Functionality :-
+
 Using wemo:
+
   turn on computer light
+
   turn off computer light
+
   turn on porch light
+
   turn off porch light
 
+
+
 Using rasp pi, json and html:
+
   room temperature
+
   room humidity
+
   
+
 using web based api:
+
   outside temperature
 
+
+
+
+
 good morning
+
 good afternoon
+
 good night
+
 ask a question
+
 wikipedia
+
 who are you
+
 what is your name
+
 open command prompt
+
 open camera
+
 open calculator
+
 time
+
 date
 
 
 
 
 To do :-
+
 Give good web interface , gtts import gTTS for text to speech
+
 Play music
+
 Change voice
+
 read email
+
 Search youtube
+
 News
+
 Dont listen
+
 Location
+
 Take a photo
+
 Reminder and ToDo list
+
 Beter Weather info
+
 Record message
+
 Recognise user
+
 Random errors
+
 Add neural networks to automate responses instead of using simple if else to hard code
